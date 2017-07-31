@@ -1,0 +1,18 @@
+{
+  "name": "vallandingham",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Akil Harris <akil.harris@firstlook.org>",
+  "license": "ISC",
+  "dependencies": {
+    "regl": "^1.3.0"
+  },
+  "devDependencies": {
+    "budo": "^10.0.3"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/budo index.js --live --open",
+    "budo": "./node_modules/.bin/budo --live --open"
+  }
+}
